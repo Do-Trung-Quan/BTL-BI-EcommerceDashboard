@@ -15,7 +15,6 @@ CREATE TABLE Dim_Product (
 );
 
 -- Tạo bảng Dim_Time
--- Lưu ý: Đổi tên cột 'Date' thành 'date_key' để tránh trùng với từ khóa DATE trong SQL
 CREATE TABLE Dim_Time (
     date_key DATE PRIMARY KEY,
     year INTEGER,
@@ -53,8 +52,4 @@ CREATE TABLE Fact_Orders (
         FOREIGN KEY(date_key) 
         REFERENCES Dim_Time(date_key)
 );
-
-SELECT * FROM public.dim_customer
-select * from dim_product
-select * from dim
 

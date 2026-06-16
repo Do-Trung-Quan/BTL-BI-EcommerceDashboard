@@ -64,8 +64,8 @@ Nằm trong thư mục [archive/](file:///c:/Users/huyle/OneDrive/Desktop/64GB_c
 * `olist_order_items_dataset.csv`: Chi tiết sản phẩm trong đơn hàng (giá, phí vận chuyển).
 * `product_category_name_translation.csv`: Bảng ánh xạ dịch tên danh mục sản phẩm từ tiếng Bồ Đào Nha sang tiếng Anh.
 
-### B. Kịch bản ETL Pipeline (`ETL pipeline.py`)
-File Python [ETL pipeline.py](file:///c:/Users/huyle/OneDrive/Desktop/64GB_child_po/N%C4%83m%204%20%28k%C3%AC%202%29/Qu%E1%BA%A3n%20tr%E1%BB%8B%20nghi%E1%BB%87p%20v%E1%BB%A5%20th%C3%B4ng%20minh/BI-Team14-Ecom/ETL%20pipeline.py) thực hiện các bước:
+### B. Kịch bản ETL Pipeline (`ETL pipeline.ipynb` / `ETL pipeline.py`)
+File Jupyter Notebook [ETL pipeline.ipynb](file:///c:/Users/huyle/OneDrive/Desktop/64GB_child_po/N%C4%83m%204%20%28k%C3%AC%202%29/Qu%E1%BA%A3n%20tr%E1%BB%8B%20nghi%E1%BB%87p%20v%E1%BB%A5%20th%C3%B4ng%20minh/BI-Team14-Ecom/ETL%20pipeline.ipynb) (hoặc file Python [ETL pipeline.py](file:///c:/Users/huyle/OneDrive/Desktop/64GB_child_po/N%C4%83m%204%20%28k%C3%AC%202%29/Qu%E1%BA%A3n%20tr%E1%BB%8B%20nghi%E1%BB%87p%20v%E1%BB%A5%20th%C3%B4ng%20minh/BI-Team14-Ecom/ETL%20pipeline.py)) thực hiện các bước:
 1. **Đọc dữ liệu thô** bằng thư viện `pandas`.
 2. **Transform (Biến đổi)**:
    * **`dim_customer`**: Lọc các trường cần thiết, đổi tên cột ngắn gọn, loại bỏ trùng lặp dựa trên `customer_id`.
